@@ -1,0 +1,237 @@
+*{
+	font-family: 'Oswald', sans-serif;
+	box-sizing: border-box;
+}
+
+body,
+div .container {
+	background: #000000;
+	margin: 0;
+
+}
+
+div .navbar .navbar-inverse .navbar-static-top{
+	width: 100%;
+	margin: 0;
+}
+
+#login-header {
+	text-align: center;
+	font-weight: 700;
+}
+
+#monster {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#monster img {
+	display: block;
+	max-width: 200px;
+	border-radius: 100%;
+	border: solid 2px #01FF2C;
+}
+
+
+#enter-info input{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #000000;
+	border: 2px solid;
+	border-color: #111111;
+}
+
+
+.col-xs-12 {
+	height: 45px;
+	/*max-width: 700px;*/
+/*	if you put this in a container and set that container's max width, that might work to center it.
+*/	text-align: center;
+	color: #FFFFFF;
+	background: #111111;
+	border: solid 1px #999999;
+	padding-top: 10px;
+	margin: auto;
+	margin-bottom: 25px;
+
+}
+
+div #enter-info{
+	height: 200px;
+	background: #111111;
+	padding-top: 10px;
+	color: #999999;
+	margin: auto;
+	margin-bottom: 20px;
+
+
+}
+
+.col-xs-6 {
+	height: 50px;
+	color: #000000;
+	background-color: #f5e694;
+	border: solid 1px #974652;
+	padding-left: 15px;
+	padding-top: 15px;
+
+}
+
+#right {
+	height: 50px;
+	color: #000000;
+	text-align: right;
+	background-color: #f5e694;
+	border: solid 1px #974652;
+	padding-right: 15px;
+	padding-top: 15px;
+
+}
+
+.col-xs-4 {
+	height: 50px;
+	color: #000000;
+	background-color: #5dca99;
+	border: solid 1px #974652;
+	padding-left: 15px;
+	padding-top: 15px;
+
+}
+
+.col-xs-8  {
+	height: 50px;
+	color: yellow;
+	background-color: blue;
+	border: solid 1px #974652;
+	padding-left: 15px;
+	padding-top: 15px;
+
+}
+
+
+
+
+.footer .col-sm-4 {
+	height: 45px;
+	/*max-width: 700px;*/
+/*	if you put this in a container and set that container's max width, that might work to center it.
+*/	text-align: center;
+	color: purple;
+	background: #111111;
+	border: solid 1px #999999;
+	padding-top: 10px;
+	margin: auto;
+	margin-bottom: 5px;
+
+}
+
+
+div #clock-bar {
+	height: 200px;
+	border: 2px solid purple;
+
+}
+
+#date {
+	font-weight: 300;
+	padding-top: -5px;
+}
+
+
+div #clock {
+	height: 75px;
+	background: #000000;
+	padding: auto;
+	padding-top: 7px;
+	font-size: 3em;
+	font-weight: 300;
+}
+
+div #reminder {
+	background: #FF0018;
+	color: white;
+	font-size: 1.4em;
+}
+
+div #bus-bar {
+	height: 125px;
+	border: 2px solid purple;
+}
+
+
+#profile-button {
+	background: #000000;
+	height: 35px;
+	padding: initial;
+	padding: auto;
+	color: #555555;
+
+
+}
+#to-home-right {
+	background: #000000;
+	height: 35px;
+	padding: initial;
+	padding: auto;
+	text-align: right;
+	color: #555555;
+}
+
+#lo-temp{
+	height: 75px;
+	background: #000000;
+	color: #38B3FF;
+}
+
+#hi-temp{
+	height: 75px;
+	background: #000000;
+	color: #4DFF40;
+}
+
+div .col-xs-4.bus-line {
+	background: #000000;
+	height: 60px;
+	text-align: left;
+	font-weight: 300;
+	color: #A565CC;
+	border: 1px solid #999999;
+  	border-right: 0;
+
+
+}
+
+div .col-xs-4.bus-line:nth-child(odd) {
+	color: orange,
+
+}
+
+div .col-xs-8.bus-arrival {
+	background: #000000;
+	height: 60px;
+	text-align: right;
+	font-weight: 300;
+	font-size: 1.3em;
+	border: 1px solid #999999;
+  	border-left: 0;
+
+}
+
+div .bus-line h1 {
+	display: inline;
+}
+
+div .bus-line span {
+	display: inline;
+	text-align: right
+}
+
+
+
+
+
