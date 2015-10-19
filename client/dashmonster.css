@@ -10,7 +10,7 @@ div .container {
 
 }
 
-div .navbar .navbar-inverse .navbar-static-top{
+div .navbar.navbar-inverse.navbar-static-top {
 	width: 100%;
 	margin: 0;
 }
@@ -55,9 +55,8 @@ div .navbar .navbar-inverse .navbar-static-top{
 	color: #FFFFFF;
 	background: #111111;
 	border: solid 1px #999999;
-	padding-top: 10px;
 	margin: auto;
-	margin-bottom: 25px;
+	
 
 }
 
@@ -78,7 +77,7 @@ div #enter-info{
 	background-color: #f5e694;
 	border: solid 1px #974652;
 	padding-left: 15px;
-	padding-top: 15px;
+	
 
 }
 
@@ -130,10 +129,10 @@ div #enter-info{
 
 }
 
-
 div #clock-bar {
 	height: 200px;
 	border: 2px solid purple;
+	margin-bottom: 25px;
 
 }
 
@@ -156,11 +155,13 @@ div #reminder {
 	background: #FF0018;
 	color: white;
 	font-size: 1.4em;
+	margin-bottom: 20px;
 }
 
 div #bus-bar {
-	height: 125px;
+	height: 200px;
 	border: 2px solid purple;
+	margin-bottom: 25px;
 }
 
 
@@ -181,12 +182,28 @@ div #bus-bar {
 	text-align: right;
 	color: #555555;
 }
+div .col-xs-12 .status{
+	height: 25px;
+	font-weight: 300;
+
+
+}
+
+div .col-xs-12 .status-temp{
+	height: 50px;
+	font-weight: 300;
+
+
+}
+
 
 #lo-temp{
-	height: 75px;
+	height: 90px;
 	background: #000000;
 	color: #38B3FF;
 }
+
+
 
 #hi-temp{
 	height: 75px;
@@ -202,14 +219,15 @@ div .col-xs-4.bus-line {
 	color: #A565CC;
 	border: 1px solid #999999;
   	border-right: 0;
+  	padding: 0;
 
 
 }
 
-div .col-xs-4.bus-line:nth-child(odd) {
-	color: orange,
+/*div .col-xs-4.bus-line:nth-child(odd) {
+	color: orange;
 
-}
+}*/
 
 div .col-xs-8.bus-arrival {
 	background: #000000;
@@ -222,14 +240,6 @@ div .col-xs-8.bus-arrival {
 
 }
 
-div .bus-line h1 {
-	display: inline;
-}
-
-div .bus-line span {
-	display: inline;
-	text-align: right
-}
 
 
 
