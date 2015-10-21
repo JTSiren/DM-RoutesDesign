@@ -5,26 +5,26 @@
 	</div>
 </div>
 	<div class="row">
-		<div class="col-xs-12 profile-label">NAME</div>
+		<div class="col-xs-12 label">NAME</div>
 			<div class="col-xs-12 enter-name">
 				<input type="text" placeholder="User Name" name="profile-name"/>
 			</div>
 		</div>	
 			<div class="row">
-				<div class="col-xs-12 location-label">LOCATIONS</div>
+				<div class="col-xs-12 label">LOCATIONS</div>
 				<div class="col-xs-12 location">Home</div>
 				<div class="col-xs-12 location">Work</div>
 			</div>
 
 	<div class="row">
-		<div class="col-xs-12 new-loc"><a href="#">ADD NEW LOCATION</a></div>
+		<div class="col-xs-12 new-loc"><a href="{{pathFor 'locations'}}">ADD NEW LOCATION<span class="glyphicon glyphicon-globe"></span></a></div>
 	</div>
 	<div class="row">
 		<div class="col-xs-12 to-dashboard"><a href="{{pathFor 'dashboard'}}">GO TO YOUR DASHBOARD</a></div>
 	</div>
 
 	<div class="row">
-		<div class="col-xs-12 to-sign-in"><a href="{{pathFor 'login'}}">LOG OUT</a></div>
+		<div class="col-xs-12 exit"><a href="{{pathFor 'login'}}">LOG OUT</a></div>
 	</div>
 
 

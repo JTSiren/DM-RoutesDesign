@@ -2,21 +2,26 @@
 
 	 <div class="container">
 	  <div class="row">
-	  	<div class="col-xs-6" id="profile-button"><a href="{{pathFor 'profile'}}">Profile name</a></div>
-	  	<div class="col-xs-6" id="to-home-right">home button</div>
+	  	<div class="col-xs-6" id="profile-button"><a href="{{pathFor 'profile'}}"><span class="glyphicon glyphicon-user"></span>Profile name</a></div>
+	  	<div class="col-xs-6" id="to-home-right"><a href="#">home button<span class="glyphicon glyphicon-home"></span></a></div>
 		</div>
 	</div>
 
 	  <div class="container">
-  	<div class="row">
-  		<div class="col-xs-12" id="reminder">DON'T FORGET HOMEWORK</div>
-  	</div>
- 	</div>
-
+  		<div class="row">
+	  		<div class="col-xs-12 reminder-bar">
+	  			<div class="row">
+		  			<div class="col-md-4 reminder-entry"><span class="glyphicon glyphicon-remove-circle"></span>DON'T FORGET HOMEWORK</div>
+		  			<div class="col-md-4 reminder-entry"><span class="glyphicon glyphicon-remove-circle"></span>FEED THE DOG</div>
+		  			<div class="col-md-4 reminder-entry"><span class="glyphicon glyphicon-remove-circle"></span>MEET FRIEND AFTER</div>
+	  			</div>
+	 		</div>
+	 	</div>
+	 </div>
  
   <div class="container">
 		<div class="row">
-			<div class="col-md-4" id="date-time-bar">
+			<div class="col-sm-4" id="date-time-bar">
 			 <div class="row">
 			 	<div class="col-sm-12" id="date">Monday, Nov. 19, 2015</div>
 				 	<div class="col-sm-12" id="clock">12:34 PM</div>
@@ -27,7 +32,7 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4"  id="temp-bar">
+			<div class="col-sm-4"  id="temp-bar">
 <!-- 			formerly col-xs-12
  -->				<div class="row">
 					<div class="col-xs-6" id="hi-temp">
@@ -74,7 +79,7 @@
 
   <div class="container">
   	<div class="row">
-  		<div class="col-xs-12 refresh">Updated 30 seconds ago</div>
+  		<div class="col-xs-12 refresh"><span class="glyphicon glyphicon-refresh"></span> Updated 30 seconds ago</div>
   	</div>
  	</div>
 
