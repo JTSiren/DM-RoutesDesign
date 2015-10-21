@@ -1,0 +1,60 @@
+div.container-fluid.map-area {
+/*	margin: auto;*/
+}
+
+#map-image {
+	max-width: 100%;
+	margin-bottom: 25px;
+/*	margin: auto;*/
+}
+
+div.col-xs-12.location-singular {
+	height: 40px;
+	text-align: left;
+	padding-top: 3px;
+	padding-left: 5px;
+	background: #000000;
+	border-left: 0;
+	border-right: 0;
+	font-weight: 300;
+	font-size: 1.45em;
+	border-top: 0;
+	margin-bottom: 25px;
+}
+
+div.col-xs-12.bus-full {
+	height: 50px;
+	border: 0;
+	border-bottom: 1px solid #999999;
+}
+
+div.col-xs-2.bus-line {
+	background: #000000;
+	height: 48px;
+	text-align: left;
+	font-size: 2em;
+	padding-top: 5px;
+	padding-left:10px;
+	border-left: 0;
+	border-right: 0;
+}
+
+div.col-xs-12.bus-dest,
+	.col-xs-12.bus-orig {
+	height: 24px;
+	font-weight: 300; 
+	border: 0;
+	text-align: left;
+	padding-top: 2px;
+
+}
+
+div.col-xs-12.bus-orig{
+	color: #CD92FF;
+}
+
+span.glyphicon.glyphicon-menu-right {
+	padding-top: 10px;
+	font-size: 2em;
+	
+}

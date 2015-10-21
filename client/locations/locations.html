@@ -1,0 +1,60 @@
+<template name="locations">
+	<div class="row">
+		<div class="col-xs-12">
+			<a href="{{pathFor 'profile'}}"><span class="glyphicon glyphicon-menu-left"></span>BACK TO PROFILE</a>
+		</div>
+
+<div class="row">
+ 	<div class="container-fluid" id="map">
+ 			<img id="map-image" src="http://i1379.photobucket.com/albums/ah140/jsiren90549/DashMonster%20images/map-image-portland_zpsbgjccyaf.png">
+ 		</div>
+	</div>
+</div>
+	<div class="row">
+		<div class="col-xs-12 label">LOCATION NAME</div>
+		<div class="col-xs-12 location-singular">Home</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 label">TRANSIT LINES</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-xs-12 bus-full">
+			<div class="row">
+				<div class="col-xs-2 bus-line">14</div>
+				<div class="col-xs-8">
+					<div class="row">
+						<div class="col-xs-12 bus-dest">To Portland City Center</div>
+						<div class="col-xs-12 bus-orig">SE Hawthorne and 30th Ave</div>
+					</div>
+				</div>
+				<div class="col xs-2 arrow-button"><span class="glyphicon glyphicon-menu-right"></span></div>
+			</div>
+		</div>
+	</div>
+
+		<div class="row">
+		<div class="col-xs-12 bus-full">
+			<div class="row">
+				<div class="col-xs-2 bus-line">15</div>
+				<div class="col-xs-8">
+					<div class="row">
+						<div class="col-xs-12 bus-dest">To NW Thurman</div>
+						<div class="col-xs-12 bus-orig">SE Belmont and 30th Ave</div>
+					</div>
+				</div>
+				<div class="col xs-2 arrow-button"><span class="glyphicon glyphicon-menu-right"></span></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12 new-loc"><a href="{{pathFor 'locations'}}">ADD NEW TRANSIT LINE<span class="glyphicon glyphicon-road"></span></a></div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-xs-12 exit"><a href="#">DELETE LOCATION</a></div>
+	</div>
+
+</template>
