@@ -1,35 +1,32 @@
-<template name="locations">
+<template name="editLocations">
+<h4>edit locations, fool.</h4>
 
-	<div class="row">
-		<a href="{{pathFor 'profile'}}">
-		<div class="col-xs-6 view-link left">
-			<span class="glyphicon glyphicon-menu-left"></span>BACK TO PROFILE
-		</div>
-		</a>
-
-<div class="row">
- 	<div class="container-fluid" id="map">
- 			<img id="map-image" src="http://i1379.photobucket.com/albums/ah140/jsiren90549/DashMonster%20images/map-image-portland_zpsbgjccyaf.png">
- 		</div>
-	</div>
-</div>
-	
-	<div class="row">
-		<div class="col-xs-12 label">LOCATION NAME</div>
-		
-		<div class="col-xs-8 location-singular">Home</div>
-			
-		<div class="col-xs-4 edit">
 		<div class="row">
-		<div class="col-xs-6 edit"></div>
-			<a href="{{pathFor 'editLocations'}}">
-			<div class="col-xs-6 edit">
-				 <span class="glyphicon glyphicon-edit"></span>
-			</div>
+			<a href="{{pathFor 'profile'}}">
+				<div class="col-xs-6 view-link left">
+					<span class="glyphicon glyphicon-menu-left"></span>
+					BACK TO PROFILE
+				</div>
 			</a>
 		</div>
+
+ 	
+	<div class="row">
+		<div class="col-xs-12 label">LOCATION NAME</div>
+		<div class="col-xs-12 input">
+			<input type="text" placeholder="Location X" name="location-name"/>
+		</div>
 	</div>
+
+	<div class="row">
+		<div class="col-xs-12 label address">ADDRESS</div>
+		<div class="col-xs-12 input address">
+			<input type="text" placeholder="1234 Street ave. Portland, OR 97209" name="location-address"/>
+		</div>
 	</div>
+	
+
+
 	<div class="row">
 		<div class="col-xs-12 label">TRANSIT LINES</div>
 	</div>
@@ -73,5 +70,6 @@
 	<div class="row">
 		<a href="#"><div class="col-xs-12 exit">DELETE LOCATION</div></a>
 	</div>
+
 
 </template>

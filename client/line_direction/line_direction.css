@@ -1,0 +1,15 @@
+div.col-sm-6.direction {
+	text-align: center;
+	background: #000000;
+	height: 40px;
+	color: white;
+	font-weight: 300;
+	font-size: 1.7em;
+	padding-top: 2px;
+	padding-left: 7px;
+	border-bottom: 1px solid green;
+}
+
+div.col-sm-6.direction:hover{
+	border-color: #38FF18;
+}

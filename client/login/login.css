@@ -1,0 +1,72 @@
+
+#login-header {
+	text-align: center;
+	font-weight: 700;
+}
+
+#monster {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#monster img {
+	display: block;
+	max-width: 200px;
+	border-radius: 100%;
+	border: solid 2px #01FF2C;
+}
+
+
+#enter-info input{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #000000;
+	border: 2px solid;
+	border-color: #111111;
+}
+
+
+div #enter-info{
+	height: 200px;
+	background: #111111;
+	padding-top: 10px;
+	color: #999999;
+	margin: auto;
+	margin-bottom: 20px;
+
+}
+
+div.col-xs-6.left {
+	height: 30px;
+	background: #000000;
+	color: #999999;
+	padding-top: 3px;
+	border:  1px solid #999999;
+}
+
+div.col-xs-6.right {
+	height: 30px;
+	background: #000000;
+	text-align: right;
+	color: #999999;
+	padding-top: 3px;
+	border: 1px solid #999999;
+}
+
+div.col-xs-12.login-button {
+	height: 40px;
+	
+	font-size: 1.6em;
+	padding-top: 2px;
+	margin-bottom: 10px;
+}
+
+div.col-xs-12.login-button a {
+	color: #01FF2C;
+}
+

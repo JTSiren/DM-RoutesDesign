@@ -25,36 +25,6 @@ div .navbar.navbar-inverse.navbar-static-top {
 
 }
 
-#login-header {
-	text-align: center;
-	font-weight: 700;
-}
-
-#monster {
-	text-align: center;
-	width: 50%;
-	margin: auto;
-	margin-top: 25px;
-	margin-bottom: 25px;
-}
-
-#monster img {
-	display: block;
-	max-width: 200px;
-	border-radius: 100%;
-	border: solid 2px #01FF2C;
-}
-
-
-#enter-info input{
-	width: 100%;
-	margin: auto;
-	margin-bottom: 20px;
-	padding: 10px;
-	background-color: #000000;
-	border: 2px solid;
-	border-color: #111111;
-}
 
 
 .col-xs-12 {
@@ -68,16 +38,6 @@ div .navbar.navbar-inverse.navbar-static-top {
 
 }
 
-div #enter-info{
-	height: 200px;
-	background: #111111;
-	padding-top: 10px;
-	color: #999999;
-	margin: auto;
-	margin-bottom: 20px;
-
-
-}
 
 .col-xs-6 {
 	height: 50px;
@@ -89,16 +49,6 @@ div #enter-info{
 
 }
 
-#right {
-	height: 50px;
-	color: #000000;
-	text-align: right;
-	background-color: #f5e694;
-	border: solid 1px #974652;
-	padding-right: 15px;
-	padding-top: 15px;
-
-}
 
 .col-xs-4 {
 	height: 50px;
@@ -110,14 +60,12 @@ div #enter-info{
 
 }
 
-.col-xs-8  {
+.col-xs-8 {
 	height: 40px;
 	color: yellow;
 	background-color: blue;
 
 }
-
-
 
 
 .footer .col-sm-4 {
@@ -134,3 +82,18 @@ div #enter-info{
 
 }
 
+div.col-xs-12.exit {
+	background: #000000;
+	color: #FF0018;
+	font-size: 1.55em;
+	padding-top: 5.25px;
+	font-weight: 300;
+	border-left: 0;
+	border-right: 0;
+	margin-top: 75px;
+
+}
+
+div.col-xs-12.back {
+	
+}

@@ -1,30 +1,68 @@
 <template name="profile">
+
 <div class="container">
 	<div class="row">
-		<div class="col-xs-12 profile-header">EDIT YOUR PROFILE</div>
+		<div class="col-xs-12 profile-header">
+			EDIT YOUR PROFILE
+		</div>
 	</div>
 </div>
+
 	<div class="row">
-		<div class="col-xs-12 label">NAME</div>
-			<div class="col-xs-12 enter-name">
-				<input type="text" placeholder="User Name" name="profile-name"/>
-			</div>
-		</div>	
+		<div class="col-xs-12 label">
+			NAME
+		</div>
+		<div class="col-xs-12 input">
+			<input type="text" placeholder="User Name" name="profile-name"/>
+		</div>
+	</div>	
+
+	<div class="row">
+		<div class="col-xs-12 label">
+			LOCATIONS
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-xs-8 location-singular">Home</div>
+		<div class="col-xs-4 edit">
 			<div class="row">
-				<div class="col-xs-12 label">LOCATIONS</div>
-				<div class="col-xs-12 location">Home</div>
-				<div class="col-xs-12 location">Work</div>
+				<div class="col-xs-6 edit"></div>
+				<a href="{{pathFor 'editLocations'}}">
+					<div class="col-xs-6 edit">
+				 		<span class="glyphicon glyphicon-edit"></span>
+					</div>
+				</a>
 			</div>
-
-	<div class="row">
-		<div class="col-xs-12 new-loc"><a href="{{pathFor 'locations'}}">ADD NEW LOCATION<span class="glyphicon glyphicon-globe"></span></a></div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12 to-dashboard"><a href="{{pathFor 'dashboard'}}">GO TO YOUR DASHBOARD</a></div>
+		</div>
 	</div>
 
+		<div class="row">
+		<div class="col-xs-8 location-singular">Work</div>
+		<div class="col-xs-4 edit">
+			<div class="row">
+				<div class="col-xs-6 edit"></div>
+				<a href="{{pathFor 'editLocations'}}">
+					<div class="col-xs-6 edit">
+				 		<span class="glyphicon glyphicon-edit"></span>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
 	<div class="row">
-		<div class="col-xs-12 exit"><a href="{{pathFor 'login'}}">LOG OUT</a></div>
+		<div class="col-xs-6 view-link"></div>
+		<a href="{{pathFor 'locations'}}"><div class="col-xs-6 view-link">ADD NEW LOCATION<span class="glyphicon glyphicon-globe"></span></div></a>
+	</div>
+	<div class="row">
+		<a href="{{pathFor 'dashboard'}}"><div class="col-xs-12 to-dashboard">GO TO YOUR DASHBOARD</div></a>
+	</div>
+
+	<div class="row">
+		<a href="{{pathFor 'login'}}"><div class="col-xs-12 exit">LOG OUT
+	</div></a>
 	</div>
 
 
