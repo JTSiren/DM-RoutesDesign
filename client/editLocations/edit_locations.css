@@ -1,0 +1,16 @@
+div .col-xs-12.label.address {
+	margin-top: -10px;
+}
+
+div .col-xs-12.label.address input {
+	width: 40%;
+}
+
+div.col-xs-12.input.address {
+	margin-bottom: 45px;
+
+}
+
+div.col-xs-12.input.address input {
+	width: 80%;
+}
