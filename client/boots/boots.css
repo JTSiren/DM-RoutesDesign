@@ -1,0 +1,46 @@
+/*Grid Classes: 
+	container: wrapper for all your rows.
+	row: container for all your column classes
+	col-##-## : the sizes of the screen and columns in your row.
+
+Ordering Classes (md and lg only):
+	.col-##-push-##: pushes your columns right to the specified col size.
+	.col-##-pull-##: pushes your columns left to the specified col size..
+		.col-md-pull-4
+
+Offset Class (md and lg only):
+	.col-##-offset-##: moves your columns depending on what the col is offset by
+		(like putting an empty column size before your column)
+
+Responsive Utility Classes: hide and show content on the screen depending on screen size.
+	
+	works for any element, not only columns.
+		
+		.visible-##: Content visible on specified screen size
+		.hidden-##: Content visible on specified screen size
+
+		example: 
+		<div col-xs-12>
+			<h1 class="visible-xs">Extra Small Screens</h1>
+			<h1 class="visible-sm">Small Screens</h1>
+			<h1 class="visible-md">Medium Screens</h1>
+			<h1 class="visible-lg">Large Screens</h1>
+		</div>
+
+		*/
+
+div.carousel.jasons-carousel-background {
+	height: 350px;
+	background: red;
+	margin-top: 200px ;
+	margin-bottom: 50px;
+
+}
+
+div.col-md-4.huge {
+	background: lightblue;
+	height: 50px;
+	margin-top: 50px;
+	text-align: center;
+	padding-top: 14px;
+}

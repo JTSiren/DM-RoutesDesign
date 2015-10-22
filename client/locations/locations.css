@@ -8,18 +8,33 @@ div.container-fluid.map-area {
 /*	margin: auto;*/
 }
 
-div.col-xs-12.location-singular {
+div.col-xs-8.location-singular,
+div.col-xs-4.edit,
+div.col-xs-6.edit
+ {
 	height: 40px;
 	text-align: left;
-	padding-top: 3px;
+	padding-top: 0;
 	padding-left: 5px;
 	background: #000000;
+	color: white;
 	border-left: 0;
 	border-right: 0;
 	font-weight: 300;
 	font-size: 1.45em;
 	border-top: 0;
-	margin-bottom: 25px;
+	border-bottom: 1px solid #999999;
+}
+
+div.col-xs-8.location-singular {
+	padding-top: 3px;
+	margin-bottom: 15px;
+}
+
+div.col-xs-6.edit {
+	font-size: .75em;
+	text-align: right;
+	padding-top: 8px;
 }
 
 div.col-xs-12.bus-full {
@@ -53,8 +68,14 @@ div.col-xs-12.bus-orig{
 	color: #CD92FF;
 }
 
-span.glyphicon.glyphicon-menu-right {
+div.col-xs-2.arrow-button {
+	text-align: right;
+
+}
+/*looks like you'll have to fix this div... 
+*/span.glyphicon.glyphicon-menu-right {
 	padding-top: 10px;
 	font-size: 2em;
+	margin-right: -20px;
 	
 }
